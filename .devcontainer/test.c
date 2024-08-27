@@ -7,6 +7,7 @@ enum year {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};
 
 int main()
 {
+    printf("Hello World!\n");
     enum year i;
     i = Jan;
     printf("%d\n",i);
