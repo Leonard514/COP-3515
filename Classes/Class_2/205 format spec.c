@@ -42,6 +42,10 @@ int main()
     printf("Apple Price 3 digits: |%.3f|\n", applePrice);
     printf("Apple Price: |%f|\n", applePrice);
 
+    // This is how you get two different variables piped into
+    // a format string
+    printf("%d apples costs $%.2f\n", numApples, applePrice);
+
     printf("Print a string: %s", "Hello World!");
     return(0);
 
