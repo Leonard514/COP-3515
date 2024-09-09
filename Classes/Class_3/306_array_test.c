@@ -61,6 +61,12 @@ int main()
     int array_one[arr_len];
     array_one[0] = 1;
     array_one[4] = 5;
+
+    char str_arr[5] = "Hello";
+
+    printf("%c", str_arr[0]);
+
+    char first = StrToEnum(str_arr[0]);
     
 
     return(0);
