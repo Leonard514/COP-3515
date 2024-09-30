@@ -49,6 +49,15 @@ int main()
         printf("user inputted a C\n");
     }
 
+    if (charArr2 == "cat")
+    {
+        printf("charArr2 == cat\n");
+    }
+    else
+    {
+        printf("charArr2 != cat\n");
+    }
+
 
 
 
