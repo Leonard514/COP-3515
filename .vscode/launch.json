@@ -3,5 +3,11 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [],
+    "name": "C Launch",
+    "request": "launch",
+    "program": "/workspaces/cpp-3/Classes/Class_14/1401_cmdargs",
+    "args": ["a", "b", "c"],
+    "cwd": "${workspaceFolder}"
 }
+
